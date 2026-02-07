@@ -8,7 +8,7 @@ cars_data = {'model': ['audi A1', 'audi A6', 'audi A4', 'audi A3','audi A1'],
 audi_cars = pd.DataFrame(cars_data)
 
 # Write your code below
-columns = ___
+columns = audi_cars[['model','year','price']]
 
 # Testing the result
 print(columns)
